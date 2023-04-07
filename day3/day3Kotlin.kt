@@ -26,8 +26,8 @@ fun printResult(inputList: List<String>){
             }
         }
     }
-    println(part1)
-    println(part2)
+    println("Part1: $part1")
+    println("Part2: $part2")
 }
 
 fun GetLetterValue (letter: Char): Int{
